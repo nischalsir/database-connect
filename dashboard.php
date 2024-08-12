@@ -25,6 +25,15 @@
             z-index: 1000;
             display: none;
         }
+        .logout-btn {
+            margin-left: 15px;
+            padding: 8px 15px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -32,7 +41,7 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="navbar-logo">
-            <h1>Dashboard</h1>
+            <h1>Admin</h1>
         </div>
         <div class="navbar-user">
             <span><?php echo htmlspecialchars($logged_in_user['full_name']); ?></span>
@@ -41,6 +50,9 @@
             <?php } else { ?>
                 <img src="default-profile.png" alt="Default Profile Picture">
             <?php } ?>
+            <form action="logout.php" method="POST">
+                <button type="submit" class="logout-btn">Logout</button>
+            </form>
         </div>
     </nav>
 
