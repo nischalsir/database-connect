@@ -1,5 +1,3 @@
-Here's a draft for your README file:
-
 ---
 
 # PHP Signup and Login System with Dashboard
