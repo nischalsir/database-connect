@@ -1,4 +1,4 @@
-<?php require_once "db_functions.php"; ?>
+<?php require_once "configs/db_functions.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="css/dashboard.css">
     <style>
         .notification {
             position: fixed;
@@ -64,6 +64,6 @@
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="dashboard.js"></script>
+    <script src="js/dashboard.js"></script>
 </body>
 </html>

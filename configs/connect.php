@@ -70,7 +70,7 @@ if (isset($_POST['login'])) {
             $_SESSION['username'] = $user['username'];
 
             // Redirect to the dashboard
-            header("Location: dashboard.php");
+            header("Location: /dashboard.php");
             exit();
         } else {
             echo "Invalid password.";

@@ -1,6 +1,6 @@
 function fetchUsers() {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'fetch_users.php', true);
+    xhr.open('GET', 'configs/fetch_users.php', true);
     xhr.onload = function() {
         if (this.status === 200) {
             const users = JSON.parse(this.responseText);
@@ -82,25 +82,3 @@ window.onload = function() {
         }, 3000);
     }
 };
-
-document.addEventListener('DOMContentLoaded', function() {
-    var ctx = document.getElementById('genderPieChart').getContext('2d');
-    var genderPieChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-            labels: ['Male', 'Female'],
-            datasets: [{
-                data: [maleCount, femaleCount],
-                backgroundColor: ['#36A2EB', '#FF6384']
-            }]
-        },
-        options: {
-            responsive: true,
-            plugins: {
-                legend: {
-                    position: 'top',
-                },
-            }
-        }
-    });
-});
