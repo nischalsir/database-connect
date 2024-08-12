@@ -1,6 +1,6 @@
 ---
 
-# Database Connect
+# PHP Signup and Login System with Dashboard
 
 This project is a PHP-based signup and login system connected to a SQL database. After successful login, users are redirected to a dashboard where the signed-up user data is displayed using Swiper.js. The project is set up to work with XAMPP.
 
