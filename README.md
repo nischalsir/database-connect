@@ -19,12 +19,29 @@ This project is a PHP-based signup and login system connected to a SQL database.
 
 ## Installation
 
-### Step 1: Clone the Repository
+### Step 1: Clone the Repository and Set Up in VSCode
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/database-connect.git
    ```
+
+2. **Open VSCode:**
+   - Launch Visual Studio Code on your computer.
+
+3. **Open the Project Folder:**
+   - In VSCode, go to `File` > `Open Folder...`.
+   - Navigate to the directory where you cloned the project (e.g., `C:\xampp\htdocs\database-connect`).
+   - Select the `database-connect` folder and click `Select Folder` (or `Open` on macOS).
+
+4. **Install Recommended Extensions:**
+   - It’s helpful to install some extensions for PHP and SQL development:
+     - **PHP Intelephense:** Provides IntelliSense and other PHP features.
+     - **PHP Debug:** Allows you to debug PHP code.
+     - **SQLTools:** Helps with managing SQL databases.
+
+5. **Configure Workspace Settings (Optional):**
+   - You may configure workspace settings in VSCode for better development experience. For example, you can create a `.vscode/settings.json` file with specific PHP and database settings.
 
 ### Step 2: Set Up the Database
 
